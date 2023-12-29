@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128537762/15.1.3%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E255)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -13,9 +8,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to bind a grid column to a referenced object's property when using XPO as a data source
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e255/)**
-<!-- run online end -->
 
 
 <p>Let's assume that there are Person and Address persistent objects. The Person class has an Address property of type Address. The Address class has a City column. The grid is bound to XpoDataSource with persons. The task is to display the Address.City value in a grid column. The solution is to set the grid column's FieldName to "Address.City".</p><p><strong>See Also:</strong><br />
